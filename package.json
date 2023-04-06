@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "nuxt": "^3.3.2"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^16.0.3",
+    "contentful": "^9.3.5",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2"
+  }
+}
