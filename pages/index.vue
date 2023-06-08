@@ -1,5 +1,6 @@
 <script setup>
 import { useNuxtApp } from "nuxt/app";
+
 let posts = {};
 const { $contentful } = useNuxtApp();
 const entries = await $contentful.getEntries({

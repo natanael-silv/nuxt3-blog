@@ -6,7 +6,7 @@ export default defineNuxtConfig({
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap",
       },
     ],
   },
@@ -19,7 +19,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  plugins: ["~/plugins/contentful.js"],
+  plugins: ["~/plugins/contentful.js", "~/plugins/prism.js"],
   runtimeConfig: {
     public: {
       CTF_SPACE_ID: process.env.CTF_SPACE_ID,
